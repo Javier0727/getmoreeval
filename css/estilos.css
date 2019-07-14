@@ -331,10 +331,15 @@ li {
     border-radius: 20px;
 }
 
+.raqueta:hover {
+    box-shadow: inset 0px 0px 3px 0px #1e2335;
+}
+
 .raqueta img {
     position: relative;
-    height: 90%;
+    height: 85%;
     width: auto;
+    left: 9%;
 }
 
 .raqueta .numero {
