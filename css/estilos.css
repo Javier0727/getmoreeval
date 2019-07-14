@@ -1,10 +1,20 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'HelvNeue';
 }
 
-.cabecera{
+@font-face {
+    font-family: "HelvNeue";
+    src: url("../img/helveticaneue/HelveticaNeue.ttf");
+}
+
+@font-face {
+    font-family: "HelvNeue-bold";
+    src: url("../img/helveticaneue/HelveticaNeueBd.ttf");
+}
+
+.cabecera {
     height: 100vh;
     background-image: url("../img/group@2x.png");
     background-position: top;
@@ -12,35 +22,37 @@
     background-repeat: no-repeat;
 }
 
-.barizq{
+.barizq {
     height: 100%;
     width: 10%;
     border-right: 2px solid white;
     float: left;
 }
 
-.imgtennis{
-    display:block;
-    margin:auto;
+.imgtennis {
+    display: block;
+    margin: auto;
     cursor: pointer;
     padding-top: 15%;
     max-width: 80%;
     height: auto;
 }
 
-.navbar{
+.navbar {
     float: left;
     width: 89.5%;
-    color: white;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 1.5px;
 }
 
-.navbar ul{
+.navbar ul {
     list-style-type: none;
     padding: 3% 0% 3% 2%;
 }
 
-.navbar ul a{
-    color: white;
+.navbar ul a {
+    color: #ffffff;
     text-decoration: none;
     padding-bottom: 1%;
     background-image: linear-gradient(currentcolor, currentcolor);
@@ -48,115 +60,196 @@
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
-
 }
 
-.navbar ul a:active{
+.navbar ul a:active {
     font-weight: bold;
 }
 
-.navbar ul a:hover, a:focus{
+.navbar ul a:hover, a:focus {
     background-size: 100% 2px;
 }
 
-li{
+li {
     display: inline;
     padding: 0% 4% 0% 4%;
 }
 
-.lenguaje{
+.lenguaje {
     float: right;
 }
 
-.boton{
+.boton {
     font-size: 0.8rem;
     font-weight: bold;
+    letter-spacing: 1px;
     padding: 2.5% 5% 2.5% 5%;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
     border-radius: 50px;
-    width: 30%;
+    width: 32%;
     cursor: pointer;
     transition-duration: 1s;
 }
 
-.boton:hover{
-    background: rgba(255, 255, 255, 0.651);
-    color: black;
-    border: 1px solid black;
+.boton:hover {
+    background: #cbe346;
+    color: #282e47;
+    border: 1px solid #282e47;
     filter: brightness(1);
     transition-duration: 1s;
 }
 
-.titulo{
+.botonn {
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 2.5% 5% 2.5% 5%;
+    border: 1px solid #282e47;
+    border-radius: 50px;
+    width: 32%;
+    cursor: pointer;
+    transition-duration: 1s;
+    color: #282e47;
+}
+
+.botonn:hover {
+    background: #cbe346;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    filter: brightness(1);
+    transition-duration: 1s;
+}
+
+.titulo {
     float: left;
-    color: white;
+    color: #ffffff;
     font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
     width: 45%;
     padding-left: 5%;
     position: relative;
     top: 25%;
 }
 
-.titulo span{
+.titulo span {
     color: #cbe346;
     font-weight: bold;
+    font-family: "Helvneue-bold";
+    letter-spacing: 0px;
 }
 
-.imgblanco{
+.imgblanco {
     filter: brightness(8);
 }
 
-.cont1{
-    height: 50vh;
+.cont1 {
+    background-color: #f3f4f8;
+    height: 40vh;
+    padding-top: 5%;
+    width: 100%;
 }
 
-.cont2{
-    height: 50vh;
+.contenedor1 {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+
+.contenedor1 div {
+    float: right;
+    padding-top: 2%;
+}
+
+.contenedor2 {
+    width: 33.33%;
+    /* background-color: black; */
+    height: 100%;
+    float: left;
+}
+
+.contenedor2 div:nth-child(1) {
+    font-size: 3rem;
+    color: #1e2335;
+}
+
+.contenedor2 div:nth-child(2) {
+    color: #787878;
+    font-size: 18px;
+    width: 85%;
+}
+
+.contenedor3 {
+    width: 33.33%;
+    /* background-color: yellow; */
+    height: 100%;
+    float: left;
+}
+
+.cont2 {
+    height: 40vh;
     background-color: #cbe346;
+    width: 100%;
 }
 
-.cont3{
+.cont3 {
     background-image: url("../img/action-athlete-ball-342361@2x.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 82vh;
+    width: 100%;
 }
 
-footer{
+footer {
     height: 30vh;
     background-color: #cbe346;
 }
 
+.bg-verde {
+    background: #cbe346;
+}
+
+.txt-verde {
+    color: #cbe346;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.lpace1 {
+    letter-spacing: 1px;
+}
+
+.position_relative {
+    position: relative;
+}
+
+.top-50 {
+    top: 50%;
+}
+
 /* Atajos a margin y padding */
-.ml-2{
+
+.ml-2 {
     margin-left: 2%;
 }
 
-.mt-5{
+.mt-5 {
     margin-top: 5%;
 }
 
-.pb-1{
+.pb-1 {
     padding-bottom: 1%;
 }
 
-@media (max-width: 575.98px) {
-    
-}
+@media (max-width: 575.98px) {}
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-    
-}
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-    
-}
+@media (min-width: 768px) and (max-width: 991.98px) {}
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    
-}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
-@media (min-width: 1200px) {
-    
-}
+@media (min-width: 1200px) {}
