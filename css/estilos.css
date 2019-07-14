@@ -30,6 +30,7 @@
 }
 
 .navbar{
+    /* padding-left: 2%; */
     float: left;
     width: 89.9%;
     /* background-color: rgba(255, 255, 255, 0.6); */
@@ -38,23 +39,101 @@
 
 .navbar ul{
     list-style-type: none;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    /* padding-top: 3%;
+    padding-bottom: 3%; */
+    padding: 3% 0% 3% 2%;
 }
 
 .navbar ul a{
-    text-decoration: none;
     color: white;
+    text-decoration: none;
+    padding-bottom: 1%;
+    background-image: linear-gradient(currentcolor, currentcolor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+
+}
+
+.navbar ul a:active{
+    font-weight: bold;
+}
+
+.navbar ul a:hover, a:focus{
+    background-size: 100% 2px;
 }
 
 li{
-    cursor: pointer;
     display: inline;
     padding: 0% 4% 0% 4%;
 }
 
 .lenguaje{
     float: right;
+}
+
+.boton{
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 2.5% 5% 2.5% 5%;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 30%;
+}
+
+.titulo{
+    float: left;
+    color: white;
+    font-size: 3rem;
+    width: 45%;
+    padding-left: 5%;
+    position: relative;
+    top: 25%;
+}
+
+.titulo span{
+    color: rgb(99, 212, 99);
+    font-weight: bold;
+}
+
+.imgblanco{
+    filter: brightness(8);
+}
+
+.cont1{
+    height: 50vh;
+}
+
+.cont2{
+    height: 50vh;
+    background-color: green;
+}
+
+.cont3{
+    background-image: url("../img/action-athlete-ball-342361@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 82vh;
+}
+
+footer{
+    height: 30vh;
+    background-color: greenyellow;
+}
+
+/* Atajos a margin y padding */
+.ml-2{
+    margin-left: 2%;
+}
+
+.mt-5{
+    margin-top: 5%;
+}
+
+.pb-1{
+    padding-bottom: 1%;
 }
 
 @media (max-width: 575.98px) {
