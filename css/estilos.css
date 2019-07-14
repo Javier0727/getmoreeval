@@ -197,7 +197,7 @@ li {
 }
 
 .cont2 {
-    height: 55vh;
+    height: 70vh;
     /* background-color: #cbe346; */
     width: 100%;
 }
@@ -205,7 +205,7 @@ li {
 .contenedor12 {
     position: relative;
     height: 100%;
-    width: 30%;
+    width: 35%;
     background-color: #f3f4f8;
     /* background-image: url("../img/carrusel-1.png"); */
     /* background-repeat: no-repeat;
@@ -245,45 +245,45 @@ li {
     width: 80%;
 }
 
-.posicion-carrusel{
+.posicion-carrusel {
     margin-top: 7%;
     width: 50%;
     height: 20px;
 }
 
-.posicion-carrusel img{
+.posicion-carrusel img {
     float: left;
     width: auto;
     height: auto;
     display: block;
     object-fit: none;
     padding: 0% 7% 0% 7%;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
-.posicion-carrusel img:nth-child(1){
+.posicion-carrusel img:nth-child(1) {
     padding-left: 0%;
 }
 
-.ctr-carrusel{
+.ctr-carrusel {
     margin-top: 7%;
-    width: 60%;
+    width: 100%;
     height: 20px;
 }
 
-.ctr-carrusel div{
-    margin-top: 3%;
+.ctr-carrusel div {
+    margin-top: 2%;
     height: 52px;
     width: 52px;
     background-color: #ffffff00;
     border: 1px solid #ffffff;
     border-radius: 100%;
     float: left;
-    box-shadow: 0px 3px 10px 0px #1e2335;
+    box-shadow: 0px 5px 8px -2px #1e2335;
     cursor: pointer;
 }
 
-.ctr-carrusel div img{
+.ctr-carrusel div img {
     position: relative;
     top: 39%;
     left: 32%;
@@ -293,7 +293,7 @@ li {
     transform: rotate(-180deg);
 }
 
-.ctr-carrusel img{
+.ctr-carrusel img {
     float: left;
     width: auto;
     height: auto;
@@ -305,9 +305,54 @@ li {
 
 .contenedor22 {
     height: 100%;
-    width: 70%;
-    background-color: #787878;
+    width: 65%;
     float: left;
+    overflow: hidden;
+}
+
+.raquetas {
+    overflow: hidden;
+    position: relative;
+    top: 17.5%;
+    left: 10%;
+    /* width: 90%; */
+    height: 65%;
+    /* background-color: #787878; */
+    display: flex;
+}
+
+.raqueta {
+    cursor: pointer;
+    height: 100%;
+    width: 35%;
+    background-color: #f3f4f8;
+    float: left;
+    margin-right: 4%;
+    border-radius: 20px;
+}
+
+.raqueta img {
+    position: relative;
+    height: 90%;
+    width: auto;
+}
+
+.raqueta .numero {
+    position: relative;
+    top: 4%;
+    left: 4%;
+    color: #ffffff;
+    background-color: #cbe346;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    z-index: 99;
+}
+
+.raqueta .numero span {
+    position: relative;
+    top: 25%;
+    left: 38%;
 }
 
 .cont3 {
