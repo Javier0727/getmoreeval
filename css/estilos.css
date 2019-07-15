@@ -54,7 +54,7 @@
     top: 3%;
     left: 17%;
     color: #f3f4f8;
-    font-size: 3rem;
+    font-size: 1rem;
     font-weight: bold;
     letter-spacing: .3rem;
     line-height: 4rem;
@@ -565,7 +565,7 @@ footer {
         max-width: 70%;
     }
     .contenedor21 div:nth-child(1) {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     .botonn {
         position: relative;
@@ -576,7 +576,11 @@ footer {
         /* font-size: 2rem !important; */
     }
     .cont2 {
-        height: 60vh;
+        height: 70vh;
+    }
+    .contenedor_footer img {
+        margin-top: 15%;
+        width: 10%;
     }
     .raqueta img {
         left: 0%;
@@ -593,6 +597,16 @@ footer {
     .contenedor22 {
         width: 40%;
     }
+    .contenedor21 {
+        width: 50%;
+    }
+    .contenedor31 {
+        width: 30%;
+    }
+    .contenedor12 .contenido12 {
+        font-size: 2rem;
+        top: 2%;
+    }
     .raquetas {
         flex-wrap: wrap;
         height: 40%;
@@ -602,6 +616,9 @@ footer {
     .raqueta {
         margin-bottom: 7%;
         width: 40%;
+    }
+    .contenedor11 {
+        width: 20%;
     }
 }
 
