@@ -8,9 +8,9 @@ $(document).ready(function () {
     // Variable para máximo de carrel
     maxcarrousel = ($(".contenedor12").children().length - 1);
     // Intervalo de tiempo de 4s para ejecutar carrusel automatico
-    // setInterval(() => {
-    //     carruselnext();
-    // }, 4000);
+    setInterval(() => {
+        carruselnext();
+    }, 4000);
 });
 
 // Eventos de mouse encima y mouse fuera para botones de llamada de accion
