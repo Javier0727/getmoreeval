@@ -322,6 +322,7 @@ li {
 }
 
 .raqueta {
+    overflow: hidden;
     cursor: pointer;
     height: 100%;
     width: 35%;
@@ -451,12 +452,137 @@ footer {
     padding-bottom: 1%;
 }
 
-@media (max-width: 575.98px) {}
+/* @media (max-width: 575.98px) {
+    .cont3 {
+        background-position: 0%;
+    }
+    .navbar ul {
+        padding-left: 0%;
+    }
+    li {
+        padding-right: 0%;
+    }
+    .boton {
+        width: 60%;
+    }
+    .botonn {
+        width: 80%;
+    }
+    .imgtennis {
+        max-width: 70%;
+    }
+    .contenedor21 div:nth-child(1) {
+        font-size: 2.5rem;
+    }
+    .botonn {
+        position: relative;
+        top: 80%;
+    }
+    .contenido12 {
+        left: 15%;
+        font-size: 2rem;
+    }
+} */
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    /* @media (min-width: 576px) and (max-width: 767.98px) { */
+    .cont3 {
+        background-position: 0%;
+    }
+    .navbar ul {
+        padding-left: 0%;
+    }
+    li {
+        padding-right: 0%;
+    }
+    .titulo {
+        width: 70%;
+    }
+    .boton {
+        width: 60%;
+    }
+    .botonn {
+        width: 80%;
+    }
+    .imgtennis {
+        max-width: 70%;
+    }
+    .contenedor21 div:nth-child(1) {
+        font-size: 2.5rem;
+    }
+    .botonn {
+        position: relative;
+        top: 80%;
+    }
+    .contenido12 {
+        left: 15% !important;
+        /* font-size: 2rem !important; */
+    }
+    .cont2 {
+        height: 60vh;
+    }
+    .raqueta img {
+        left: 0%;
+        width: 100%;
+        height: auto;
+        margin-top: 7%;
+    }
+    footer {
+        height: 20vh;
+    }
+    .contenedor12 {
+        width: 60%;
+    }
+    .contenedor22 {
+        width: 40%;
+    }
+    .raquetas {
+        flex-wrap: wrap;
+        height: 40%;
+        overflow: initial;
+        top: 10%;
+    }
+    .raqueta{
+        margin-bottom: 7%;
+        width: 40%;
+    }
+}
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .boton {
+        width: 60%;
+    }
+    .botonn {
+        width: 80%;
+    }
+    .contenedor11 {
+        width: 25%;
+    }
+    .contenedor21 {
+        width: 55%;
+    }
+    .contenedor31 {
+        width: 15%;
+    }
+    .contenedor12 .contenido12 {
+        font-size: 2rem;
+        left: 20%;
+    }
+    .raqueta img {
+        left: -10%;
+    }
+    /* .cont3{
+        background-position: 0%;
+    } */
+}
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .boton {
+        width: 45%;
+    }
+    .raqueta img {
+        left: 0%;
+    }
+}
 
-@media (min-width: 1200px) {}
+/* @media (min-width: 1200px) {} */
