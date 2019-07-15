@@ -82,3 +82,8 @@ $("#prev").click(function (e) {
     e.preventDefault();
     carruselprev();
 });
+
+$(".navmob").click(function (e) {
+    e.preventDefault();
+    $(".backmenu").toggle("slide", { direction: "right" });
+});
